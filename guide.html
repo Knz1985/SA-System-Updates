@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>دليل استخدام نظام SA</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Tahoma, Arial, sans-serif;
+            background: #f4f6f9;
+            color: #1f2937;
+            direction: rtl;
+            line-height: 1.9;
+        }
+
+        .header {
+            background: #17365d;
+            color: white;
+            padding: 35px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        .header p {
+            margin: 8px 0 0;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 35px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 35px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+        }
+
+        h2 {
+            color: #17365d;
+            border-bottom: 2px solid #d4af37;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: #244d7c;
+            margin-top: 25px;
+        }
+
+        .contents a {
+            display: block;
+            color: #17365d;
+            text-decoration: none;
+            padding: 7px 0;
+        }
+
+        .contents a:hover {
+            text-decoration: underline;
+        }
+
+        .step {
+            background: #f7f9fc;
+            border-right: 4px solid #17365d;
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        .note {
+            background: #fff8df;
+            border-right: 4px solid #d4af37;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .back {
+            display: inline-block;
+            margin-top: 10px;
+            color: #17365d;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            color: #777;
+            padding: 25px;
+            font-size: 13px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>دليل استخدام نظام SA</h1>
+        <p>دليل مبسط لاستخدام نظام إدارة الحضور الأكاديمي</p>
+    </header>
+
+    <main class="container">
+
+        <section class="card contents">
+
+            <h2>محتويات الدليل</h2>
+
+            <a href="#install">1. تحميل وتثبيت البرنامج</a>
+            <a href="#login">2. تسجيل الدخول</a>
+            <a href="#dashboard">3. لوحة المعلومات</a>
+            <a href="#attendance">4. تسجيل الحضور</a>
+            <a href="#save">5. حفظ الحضور</a>
+            <a href="#sync">6. مزامنة الحضور</a>
+            <a href="#reports">7. التقارير</a>
+            <a href="#settings">8. الإعدادات</a>
+            <a href="#updates">9. تحديث البرنامج</a>
+
+        </section>
+
+
+        <section class="card" id="install">
+
+            <h2>1. تحميل وتثبيت البرنامج</h2>
+
+            <div class="step">
+                اضغط على زر <strong>تحميل وتثبيت البرنامج</strong>
+                من الصفحة الرئيسية.
+            </div>
+
+            <div class="step">
+                بعد اكتمال التحميل، قم بتشغيل ملف
+                <strong>setup.exe</strong>.
+            </div>
+
+            <div class="step">
+                اتبع تعليمات التثبيت حتى يكتمل تثبيت نظام SA.
+            </div>
+
+            <div class="note">
+                قد يعرض Windows تنبيهًا بأن الناشر غير معروف.
+                سيُعالج توقيع البرنامج في إصدار إنتاجي لاحق.
+            </div>
+
+        </section>
+
+
+        <section class="card" id="login">
+
+            <h2>2. تسجيل الدخول</h2>
+
+            <p>
+                بعد تشغيل البرنامج، استخدم بيانات الدخول الخاصة بك
+                للاتصال بالنظام الأكاديمي.
+            </p>
+
+            <div class="step">
+                أدخل اسم المستخدم وكلمة المرور.
+            </div>
+
+            <div class="step">
+                اضغط على زر تسجيل الدخول وانتظر حتى يتم الاتصال بالنظام.
+            </div>
+
+        </section>
+
+
+        <section class="card" id="dashboard">
+
+            <h2>3. لوحة المعلومات</h2>
+
+            <p>
+                تعرض لوحة المعلومات ملخصًا سريعًا عن المحاضرات
+                وبيانات الحضور المسجلة في النظام.
+            </p>
+
+        </section>
+
+
+        <section class="card" id="attendance">
+
+            <h2>4. تسجيل الحضور</h2>
+
+            <p>
+                من شاشة الحضور يمكنك اختيار المحاضرة وعرض الطلاب
+                ثم تسجيل حالة الحضور لكل طالب.
+            </p>
+
+            <h3>حالات الحضور</h3>
+
+            <div class="step">
+                <strong>حاضر:</strong>
+                الطالب حضر المحاضرة.
+            </div>
+
+            <div class="step">
+                <strong>غائب:</strong>
+                الطالب لم يحضر المحاضرة.
+            </div>
+
+            <div class="step">
+                <strong>بدون تحضير:</strong>
+                لم يتم تحديد حالة حضور الطالب بعد.
+            </div>
+
+        </section>
+
+
+        <section class="card" id="save">
+
+            <h2>5. حفظ الحضور</h2>
+
+            <p>
+                بعد الانتهاء من تسجيل الحضور، استخدم خيار حفظ الحضور
+                لحفظ البيانات داخل نظام SA.
+            </p>
+
+            <div class="note">
+                حفظ الحضور داخل البرنامج لا يعني بالضرورة أنه تمت
+                مزامنته مع النظام الأكاديمي.
+            </div>
+
+        </section>
+
+
+        <section class="card" id="sync">
+
+            <h2>6. مزامنة الحضور</h2>
+
+            <p>
+                تتيح المزامنة إرسال بيانات الحضور المحفوظة
+                إلى النظام الأكاديمي.
+            </p>
+
+            <div class="step">
+                اختر المحاضرة المحفوظة التي تريد مزامنتها.
+            </div>
+
+            <div class="step">
+                ابدأ عملية المزامنة وانتظر حتى ينتهي النظام
+                من معالجة سجلات الطلاب.
+            </div>
+
+            <div class="note">
+                يُنصح بمراجعة نتيجة المزامنة والتأكد من حالة
+                السجلات بعد اكتمال العملية.
+            </div>
+
+        </section>
+
+
+        <section class="card" id="reports">
+
+            <h2>7. التقارير</h2>
+
+            <p>يوفر النظام عدة أنواع من تقارير الحضور، منها:</p>
+
+            <div class="step">
+                تفاصيل الحضور
+            </div>
+
+            <div class="step">
+                ملخص حضور الطالب
+            </div>
+
+            <div class="step">
+                ملخص حضور المقرر
+            </div>
+
+            <p>
+                يمكن معاينة التقرير قبل الطباعة، أو طباعته،
+                أو تصديره بصيغة PDF.
+            </p>
+
+        </section>
+
+
+        <section class="card" id="settings">
+
+            <h2>8. الإعدادات</h2>
+
+            <p>
+                تتيح شاشة الإعدادات تخصيص بعض خيارات النظام،
+                مثل لغة العرض وأنواع ملاحظات الحضور.
+            </p>
+
+        </section>
+
+
+        <section class="card" id="updates">
+
+            <h2>9. تحديث البرنامج</h2>
+
+            <p>
+                يقوم نظام SA بالتحقق من وجود إصدار أحدث عند تشغيل البرنامج.
+            </p>
+
+            <div class="step">
+                عند توفر تحديث جديد، سيظهر إشعار بالتحديث.
+            </div>
+
+            <div class="step">
+                وافق على التحديث وانتظر حتى يتم تنزيل الإصدار الجديد وتثبيته.
+            </div>
+
+            <div class="note">
+                لا تحتاج إلى تحميل البرنامج من الموقع مرة أخرى عند كل تحديث.
+            </div>
+
+        </section>
+
+
+        <section class="card">
+
+            <a class="back" href="index.html">
+                العودة إلى صفحة تحميل البرنامج
+            </a>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        SA System
+    </footer>
+
+</body>
+
+</html>
